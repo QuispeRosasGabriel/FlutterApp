@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _lista() {
-    menuProvider.cartgarData();
+    print(menuProvider.cargarData());
 
     return ListView(
       children: _listarItems(),

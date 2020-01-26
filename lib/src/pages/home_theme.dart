@@ -14,21 +14,21 @@ class HomePageTemp extends StatelessWidget {
     );
   }
 
-  List<Widget> _crearItems() {
-    List<Widget> lista = new List<Widget>();
-    for (String opt in opciones) {
-      final tempWidget = ListTile(
-        title: Text(opt),
-      );
-      lista
-        ..add(tempWidget)
-        ..add(Divider(
-          color: Colors.black,
-        ));
-    }
+  // List<Widget> _crearItems() {
+  //   List<Widget> lista = new List<Widget>();
+  //   for (String opt in opciones) {
+  //     final tempWidget = ListTile(
+  //       title: Text(opt),
+  //     );
+  //     lista
+  //       ..add(tempWidget)
+  //       ..add(Divider(
+  //         color: Colors.black,
+  //       ));
+  //   }
 
-    return lista;
-  }
+  //   return lista;
+  // }
 
   List<Widget> _crearItemsCortos() {
     return opciones

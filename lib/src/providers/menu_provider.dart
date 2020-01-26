@@ -4,10 +4,10 @@ class _MenuProvider {
   List<dynamic> opciones = [];
 
   _MenuProvider() {
-    cartgarData();
+    cargarData();
   }
 
-  cartgarData() {
+  cargarData() {
     rootBundle.loadString('data/menu_opts.json').then((data) => print(data));
   }
 }
